@@ -1,12 +1,13 @@
 Name:		live555
 Version:	2013.11.26
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Live555.com streaming libraries
 
 Group:		System Environment/Libraries
 License:	LGPLv2+
 URL:		http://live555.com/liveMedia/
-Source0:	http://live555.com/liveMedia/public/live.%{version}.tar.gz
+#Source0:	http://live555.com/liveMedia/public/live.%{version}.tar.gz
+Source0:	https://dl.deskosproject.org/sources/live555/live.%{version}.tar.gz
 
 # Packages using live555 must Requires this:
 #{?live555_version:Requires: live555%{?_isa} = %{live555_version}}
@@ -121,6 +122,9 @@ chmod +x $RPM_BUILD_ROOT%{_libdir}/*.so*
 
 
 %changelog
+* Mon May 16 2016 Ricardo Arguello <rarguello@deskosproject.org> 2013.11.26-2
+- Rebuilt for DeskOS
+
 * Thu Nov 28 2013 Nicolas Chauvet <kwizart@gmail.com> - 2013.11.26-1
 - Update to 2013.11.26
 

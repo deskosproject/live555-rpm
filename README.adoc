@@ -1,0 +1,8 @@
+= DeskOS: live555 RPM
+
+This is the _live555_ RPM package for the *DeskOS* operating system.
+
+The source code for this package is hosted at https://dl.deskosproject.org/sources/live555/
+
+Upstream comes from the NUX Dextop 7:
+http://li.nux.ro/download/nux/dextop/el7/SRPMS/live555-2013.11.26-1.el7.nux.src.rpm[live555-2013.11.26-1.el7.nux.src.rpm]
